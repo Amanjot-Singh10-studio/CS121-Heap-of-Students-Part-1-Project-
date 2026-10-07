@@ -44,7 +44,8 @@ classDiagram
     Student *-- Date
 
 ```
-Address Class
+##Address Class
+```
 Address()
     - init(string, street, string city, string, state, string zip) 
         -  street = s
@@ -55,7 +56,9 @@ Address()
         - print street 
         - print city, state and zip 
 ```
-Date Class 
+
+##Date Class
+``` 
 date() 
     - month = 0 
     - day = 0 
@@ -75,7 +78,9 @@ date()
             - print month name 
         - print day and year (srd::cout << day << year) 
 ```
-Student Class 
+
+##Student Class
+``` 
 
 Student() 
     - create date object for birth date
@@ -137,7 +142,8 @@ Student()
         - getcredithours() 
             - return credit hours 
 ```
-Main 
+
+##Main 
 ```
 Main() 
     int main 
@@ -164,5 +170,4 @@ testStudent()
         - print student last name and first name 
         - delete student
 ```
- 
-        
+   
