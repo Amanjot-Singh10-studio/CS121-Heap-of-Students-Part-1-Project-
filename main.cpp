@@ -37,4 +37,5 @@ void testStudent(){
   std::cout << std::endl;
   std::cout << student->getLastFirst() << std::endl;
   delete student;
-} 
+}
+

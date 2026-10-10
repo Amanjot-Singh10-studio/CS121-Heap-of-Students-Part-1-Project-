@@ -169,5 +169,4 @@ testStudent()
         - print student information 
         - print student last name and first name 
         - delete student
-```
-   
+```   
